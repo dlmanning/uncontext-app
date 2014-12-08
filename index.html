@@ -1,0 +1,15 @@
+<html>
+  <head>
+    <title></title>
+  </head>
+  <body>
+  <div id="app">
+    <svg ng-controller="svgWindow as ctrl">
+      <circle ng-attr-cx="{{ctrl.x}}" ng-attr-cy="{{ctrl.y}}" r="10" />
+    </svg>
+  </div>
+
+  <script src="vendor/angular.min.js" charset="utf-8"></script>
+  <script src="bundle.js" charset="utf-8"></script>
+  </body>
+</html>
